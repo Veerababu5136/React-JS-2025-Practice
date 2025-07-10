@@ -28,6 +28,8 @@
 
 - babel is module/library availbe in node modules
 
+Note : {}----known as jsx expression, which useful to write js-code in jsx
+
 
 */
 

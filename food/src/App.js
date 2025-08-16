@@ -1,14 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RecipeList from "./components/RecipeList";
 import RecipeDetails from "./components/RecipeDetails";
 import Footer from "./components/Footer"
+import Error from "./components/Error"
+
 import "./App.css";
 
 function App() {
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <header className="header">
         <h1>🍽 Food Recipes</h1>
       </header>
@@ -17,9 +19,11 @@ function App() {
         <Routes>
           <Route path="/" element={<RecipeList />} />
           <Route path="/recipe/:id" element={<RecipeDetails />} />
+                    <Route path="*" element={<Error />} />
+
         </Routes>
       </main>
-    </Router>
+    </BrowserRouter>
     <Footer />
 </>
     

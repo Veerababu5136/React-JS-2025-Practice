@@ -5,17 +5,22 @@ function RecipeList() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    const fetchRecipes = async () => {
-      try {
+    fetchRecipes();
+  }, []);
+
+
+  async function fetchRecipes()
+  {
+
+     try {
         const res = await fetch("https://dummyjson.com/recipes");
         const data = await res.json();
         setRecipes(data.recipes);
       } catch (err) {
         console.error("Error fetching recipes:", err);
       }
-    };
-    fetchRecipes();
-  }, []);
+    
+  }
 
   return (
     <div className="grid">
@@ -35,3 +40,7 @@ function RecipeList() {
 }
 
 export default RecipeList;
+
+
+
+// api,routing,hooks--usestate,useffct(empty array,state change),css(external),map,   axios, components,conditional-rendering,excepting-handling,error-pages

@@ -5,18 +5,23 @@ function RecipeDetails() {
   const { id } = useParams();
   const [recipe, setRecipe] = useState(null);
 
-  useEffect(() => {
-    const fetchRecipe = async () => {
-      try {
+useEffect(() => {
+    fetchRecipe();
+  }, [id]);
+
+
+
+  async function fetchRecipe() {
+
+     try {
         const res = await fetch(`https://dummyjson.com/recipes/${id}`);
         const data = await res.json();
         setRecipe(data);
       } catch (err) {
         console.error("Error fetching recipe:", err);
       }
-    };
-    fetchRecipe();
-  }, [id]);
+    
+  }
 
   if (!recipe) return <p className="loading">Loading...</p>;
 

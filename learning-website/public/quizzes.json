@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1,
+    "title": "Python Programming Quiz",
+    "questions": [
+      {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "5"
+        ],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          "func",
+          "function",
+          "define",
+          "def"
+        ],
+        "correctAnswer": "def"
+      },
+      {
+        "question": "Which data type is used to store textual data in Python?",
+        "options": [
+          "int",
+          "float",
+          "str",
+          "bool"
+        ],
+        "correctAnswer": "str"
+      },
+      {
+        "question": "What is the correct file extension for Python files?",
+        "options": [
+          ".pyt",
+          ".pt",
+          ".py",
+          ".python"
+        ],
+        "correctAnswer": ".py"
+      },
+      {
+        "question": "What will be the output of print(10//3)?",
+        "options": [
+          "3",
+          "3.33",
+          "4",
+          "error"
+        ],
+        "correctAnswer": "3"
+      },
+      {
+        "question": "Which of the following is a Python list?",
+        "options": [
+          "{1,2,3}",
+          "(1,2,3)",
+          "[1,2,3]",
+          "<1,2,3>"
+        ],
+        "correctAnswer": "[1,2,3]"
+      },
+      {
+        "question": "How do you insert COMMENTS in Python code?",
+        "options": [
+          "/* comment */",
+          "-- comment",
+          "# comment",
+          "// comment"
+        ],
+        "correctAnswer": "# comment"
+      },
+      {
+        "question": "Which operator is used to compare two values?",
+        "options": [
+          "=",
+          "==",
+          "!=",
+          "equals"
+        ],
+        "correctAnswer": "=="
+      },
+      {
+        "question": "Which of the following is a loop in Python?",
+        "options": [
+          "loop",
+          "iterate",
+          "for",
+          "foreach"
+        ],
+        "correctAnswer": "for"
+      },
+      {
+        "question": "Which of the following libraries is used for data analysis in Python?",
+        "options": [
+          "pandas",
+          "numpy",
+          "matplotlib",
+          "seaborn"
+        ],
+        "correctAnswer": "pandas"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "C Programming Quiz",
+    "questions": [
+      {
+        "question": "Which header file is used for input/output in C?",
+        "options": [
+          "stdlib.h",
+          "conio.h",
+          "stdio.h",
+          "math.h"
+        ],
+        "correctAnswer": "stdio.h"
+      },
+      {
+        "question": "What is the correct syntax to declare an integer variable?",
+        "options": [
+          "int x;",
+          "integer x;",
+          "x int;",
+          "int = x;"
+        ],
+        "correctAnswer": "int x;"
+      },
+      {
+        "question": "Which symbol is used to end a statement in C?",
+        "options": [
+          ".",
+          ":",
+          ";",
+          "#"
+        ],
+        "correctAnswer": ";"
+      },
+      {
+        "question": "Which loop is guaranteed to execute at least once?",
+        "options": [
+          "for",
+          "while",
+          "do-while",
+          "foreach"
+        ],
+        "correctAnswer": "do-while"
+      },
+      {
+        "question": "Which operator is used to get the address of a variable?",
+        "options": [
+          "*",
+          "&",
+          "#",
+          "%"
+        ],
+        "correctAnswer": "&"
+      },
+      {
+        "question": "Which keyword is used to return a value from a function?",
+        "options": [
+          "return",
+          "yield",
+          "exit",
+          "back"
+        ],
+        "correctAnswer": "return"
+      },
+      {
+        "question": "Which of the following is a logical operator in C?",
+        "options": [
+          "&",
+          "&&",
+          "|",
+          "!="
+        ],
+        "correctAnswer": "&&"
+      },
+      {
+        "question": "Which data type is used to represent a single character?",
+        "options": [
+          "int",
+          "float",
+          "char",
+          "double"
+        ],
+        "correctAnswer": "char"
+      },
+      {
+        "question": "Which function is used to read a character from the user?",
+        "options": [
+          "scanf()",
+          "cin",
+          "getchar()",
+          "readchar()"
+        ],
+        "correctAnswer": "getchar()"
+      },
+      {
+        "question": "Which function is used to terminate the program?",
+        "options": [
+          "exit()",
+          "stop()",
+          "end()",
+          "close()"
+        ],
+        "correctAnswer": "exit()"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "C++ Programming Quiz",
+    "questions": [
+      {
+        "question": "Which of the following is a correct class declaration?",
+        "options": [
+          "class MyClass {}",
+          "class MyClass;",
+          "MyClass class {}",
+          "define class MyClass"
+        ],
+        "correctAnswer": "class MyClass {}"
+      },
+      {
+        "question": "Which concept allows function overloading in C++?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Abstraction"
+        ],
+        "correctAnswer": "Polymorphism"
+      },
+      {
+        "question": "What is the default access specifier for class members in C++?",
+        "options": [
+          "public",
+          "private",
+          "protected",
+          "internal"
+        ],
+        "correctAnswer": "private"
+      },
+      {
+        "question": "What is used to create an object in C++?",
+        "options": [
+          "class",
+          "object",
+          "new",
+          "make"
+        ],
+        "correctAnswer": "new"
+      },
+      {
+        "question": "Which of the following denotes inheritance?",
+        "options": [
+          ":",
+          "::",
+          "->",
+          "=>"
+        ],
+        "correctAnswer": ":"
+      },
+      {
+        "question": "Which function is called when an object is destroyed?",
+        "options": [
+          "constructor",
+          "deleter",
+          "destructor",
+          "finalize"
+        ],
+        "correctAnswer": "destructor"
+      },
+      {
+        "question": "Which keyword is used to define a constant in C++?",
+        "options": [
+          "const",
+          "define",
+          "static",
+          "immutable"
+        ],
+        "correctAnswer": "const"
+      },
+      {
+        "question": "Which operator is used to access members through a pointer?",
+        "options": [
+          ".",
+          "*",
+          "->",
+          "&"
+        ],
+        "correctAnswer": "->"
+      },
+      {
+        "question": "Which feature of OOP binds data and functions together?",
+        "options": [
+          "Encapsulation",
+          "Inheritance",
+          "Polymorphism",
+          "Abstraction"
+        ],
+        "correctAnswer": "Encapsulation"
+      },
+      {
+        "question": "Which file extension is used for C++ source files?",
+        "options": [
+          ".cpp",
+          ".cp",
+          ".cc",
+          ".c++"
+        ],
+        "correctAnswer": ".cpp"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AI & Machine Learning Quiz",
+    "questions": [
+      {
+        "question": "What does AI stand for?",
+        "options": [
+          "Artificial Intelligence",
+          "Automatic Input",
+          "Advanced Interaction",
+          "Algorithmic Interface"
+        ],
+        "correctAnswer": "Artificial Intelligence"
+      },
+      {
+        "question": "Which of the following is a common ML algorithm?",
+        "options": [
+          "Linear Regression",
+          "TCP/IP",
+          "ReactJS",
+          "MySQL"
+        ],
+        "correctAnswer": "Linear Regression"
+      },
+      {
+        "question": "Which Python library is used for ML?",
+        "options": [
+          "sklearn",
+          "pandas",
+          "flask",
+          "django"
+        ],
+        "correctAnswer": "sklearn"
+      },
+      {
+        "question": "Which type of learning uses labeled data?",
+        "options": [
+          "Supervised",
+          "Unsupervised",
+          "Reinforcement",
+          "Unstructured"
+        ],
+        "correctAnswer": "Supervised"
+      },
+      {
+        "question": "Which algorithm is used for classification?",
+        "options": [
+          "KNN",
+          "K-means",
+          "Apriori",
+          "PCA"
+        ],
+        "correctAnswer": "KNN"
+      },
+      {
+        "question": "Which ML technique is used to reduce overfitting?",
+        "options": [
+          "Regularization",
+          "Overtraining",
+          "Boosting",
+          "Stacking"
+        ],
+        "correctAnswer": "Regularization"
+      },
+      {
+        "question": "Which of the following is a neural network library?",
+        "options": [
+          "TensorFlow",
+          "NumPy",
+          "Matplotlib",
+          "Requests"
+        ],
+        "correctAnswer": "TensorFlow"
+      },
+      {
+        "question": "Which language is most commonly used in ML?",
+        "options": [
+          "Python",
+          "C++",
+          "Java",
+          "PHP"
+        ],
+        "correctAnswer": "Python"
+      },
+      {
+        "question": "Which concept refers to the model's ability to adapt to new data?",
+        "options": [
+          "Generalization",
+          "Optimization",
+          "Specialization",
+          "Initialization"
+        ],
+        "correctAnswer": "Generalization"
+      },
+      {
+        "question": "Which evaluation metric is best for classification?",
+        "options": [
+          "Accuracy",
+          "MSE",
+          "MAE",
+          "RMSE"
+        ],
+        "correctAnswer": "Accuracy"
+      }
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "title": "Python Programming",
+    "image": "/images/1.avif",
+    "tutorial": [
+      {
+        "title": "Introduction to Python",
+        "description": "Python is a versatile, high-level, interpreted language. It's widely used in web development, data science, automation, and more.",
+        "subtopics": [
+          {
+            "title": "What is Python?",
+            "explanation": "Python is a high-level, interpreted programming language known for its clean syntax and readability. It's used in fields like web development, AI, data science, automation, and more."
+          },
+          {
+            "title": "History and versions",
+            "explanation": "Python was created by Guido van Rossum in 1991. The two main branches are Python 2 and Python 3, with Python 3 being the current standard."
+          },
+          {
+            "title": "Installing Python and IDEs",
+            "explanation": "You can install Python from python.org. Recommended IDEs include IDLE (default), VS Code, and PyCharm."
+          },
+          {
+            "title": "Writing and running your first Python script",
+            "explanation": "Create a file with .py extension and write: print('Hello World'). Run it using the command: python filename.py."
+          },
+          {
+            "title": "Advantages of Python in real-world development",
+            "explanation": "Python is easy to learn, has a vast collection of libraries, and supports cross-platform development. It’s widely adopted in academia and industry."
+          },
+           {
+            "title": "Who is sowjanaya?",
+            "explanation": "dont knon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "C Programming",
+    "image": "/images/1.avif",
+  
+    "tutorial": [
+      {
+        "title": "Introduction to C",
+        "description": "C is a powerful, low-level programming language used for system programming and embedded development.",
+        "subtopics": [
+          {
+            "title": "What is C?",
+            "explanation": "C is a procedural programming language used to develop system applications like operating systems and compilers."
+          },
+          {
+            "title": "Structure of a C Program",
+            "explanation": "A basic C program includes headers, a main() function, and statements enclosed in curly braces."
+          },
+          {
+            "title": "Compiling and Executing",
+            "explanation": "Use a C compiler like GCC to compile and run programs. Example: gcc file.c -o program"
+          },
+          {
+            "title": "Header Files",
+            "explanation": "Standard C library header files like stdio.h, stdlib.h, etc., are included using #include directive."
+          },
+          {
+            "title": "Difference from Other Languages",
+            "explanation": "C is close to hardware and memory-efficient but lacks features like OOP found in high-level languages like Java or Python."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "C++ Programming",
+    "image": "/images/1.avif",
+   
+    "tutorial": [
+      {
+        "title": "Introduction to C++",
+        "description": "C++ is an extension of C that supports object-oriented programming.",
+        "subtopics": [
+          {
+            "title": "What is C++?",
+            "explanation": "C++ is a statically typed, compiled language that supports both procedural and object-oriented programming paradigms."
+          },
+          {
+            "title": "Advantages of C++",
+            "explanation": "C++ provides more structure, OOP features, and standard libraries compared to C."
+          },
+          {
+            "title": "First Program in C++",
+            "explanation": "Use iostream library to write: cout << \"Hello World\"; inside main(). Compile using g++."
+          },
+          {
+            "title": "Classes and Objects",
+            "explanation": "C++ introduced the concept of classes and objects for encapsulation and modular design."
+          },
+          {
+            "title": "Inheritance and Polymorphism",
+            "explanation": "C++ supports class inheritance, function overloading, and virtual functions for dynamic polymorphism."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AI & Machine Learning",
+    "image": "/images/1.avif",
+   
+    "tutorial": [
+      {
+        "title": "Introduction to AI & ML",
+        "description": "Understand the fundamentals of Artificial Intelligence and Machine Learning and how they are applied in real-world systems.",
+        "subtopics": [
+          {
+            "title": "What is AI?",
+            "explanation": "AI refers to the simulation of human intelligence in machines that are programmed to think and learn."
+          },
+          {
+            "title": "What is Machine Learning?",
+            "explanation": "ML is a subset of AI that enables systems to learn from data and improve performance over time without being explicitly programmed."
+          },
+          {
+            "title": "Supervised vs Unsupervised Learning",
+            "explanation": "Supervised learning uses labeled data, while unsupervised learning finds patterns in unlabeled data."
+          },
+          {
+            "title": "Popular ML Algorithms",
+            "explanation": "Linear Regression, Decision Trees, KNN, SVM, and Neural Networks are commonly used ML algorithms."
+          },
+          {
+            "title": "Real-World Applications",
+            "explanation": "AI/ML is used in voice assistants, recommendation systems, fraud detection, image recognition, and more."
+          }
+        ]
+      }
+    ]
+  }
+]

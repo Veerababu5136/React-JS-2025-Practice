@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 
 const QuizDetail = () => {
   const { id } = useParams(); // quiz id from URL
+
+  console.log(typeof(id))
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -18,17 +20,52 @@ const QuizDetail = () => {
       });
   }, [id]);
 
+/*
+
+answers={
+
+
+name:"lop",
+dob:"999999"
+}
+
+
+...answers,name:"lop"
+
+
+
+*/
+
   // Handle option selection
   const handleChange = (questionIndex, option) => {
+
+    console.log(option)
     setAnswers({ ...answers, [questionIndex]: option });
   };
+
+
+  
+  // answer{
+
+  //   0:"conio.h",
+	// 1:"integer x;",
+	
+	
+	// ....
+	
+	
+	// 9:"jdkl"
+
+
+  // }
+
 
   // Handle quiz submission
   const handleSubmit = () => {
     let scoreCount = 0;
     quiz.questions.forEach((q, index) => {
       if (answers[index] === q.correctAnswer) {
-        scoreCount++;
+        scoreCount++; //1,2,.....3
       }
     });
     setScore(scoreCount);
@@ -57,8 +94,8 @@ const QuizDetail = () => {
                     <input
                       type="radio"
                       name={`question-${index}`}
-                      value={option}
                       checked={answers[index] === option}
+
                       onChange={() => handleChange(index, option)}
                     />
                     {option}

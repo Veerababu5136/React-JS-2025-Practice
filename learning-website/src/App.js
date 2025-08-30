@@ -30,8 +30,14 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/courses/:id" element={<CourseDetail />} />
-<Route path="/quizzes" element={<Quizzes />} />
-<Route path="/quizzes/:id" element={<QuizDetail />} />
+                 
+                 
+                 <Route path="/quizzes" element={<Quizzes />} /> 
+<Route path="/quizzes/:id" element={<QuizDetail />} />  //data pass
+
+
+
+
             <Route path="/about" element={<About />} />
             <Route path="/*" element={<Error msg={"invalid url"}/>}/>
             <Route path="/courses/:id/*" element={<Error msg={"invalid courses url"}/>}/>
